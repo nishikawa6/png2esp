@@ -42,3 +42,8 @@ def convert_all(img_dir):
 if __name__ == "__main__":
     img_dir = "" # 変換したい画像があるディレクトリを指定
     convert_all(img_dir)
+
+    # 1枚だけ変換したい場合
+    # img_path = "" # 変換したい画像のパスを指定
+    # img = convert(img_path)
+    # save_as_eps(img_path, img)
